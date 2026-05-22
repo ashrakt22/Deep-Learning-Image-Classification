@@ -9,7 +9,20 @@ This project implements a Convolutional Neural Network (CNN) to classify images 
 ✈️ Airplane | 🚗 Automobile | 🐦 Bird | 🐱 Cat | 🦌 Deer | 🐶 Dog | 🐸 Frog | 🐴 Horse | 🚢 Ship | 🚛 Truck
 
 ---
+## Problem Description
+Image classification is the task of assigning a label to an input image. 
 
+In this project, the goal is to correctly classify images into one of 
+10 categories: airplane, automobile, bird, cat, deer, dog, frog, horse, 
+ship, and truck.
+
+This is a multi-class classification problem where:
+- Input  → a 32x32 RGB image
+- Output → one of 10 class labels
+
+The challenge is building a model that generalizes well to unseen images,
+not just the ones it was trained on.
+---
 ## Dataset
 - **Name:** CIFAR-10
 - **Source:** https://www.cs.toronto.edu/~kriz/cifar.html
